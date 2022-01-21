@@ -27,3 +27,32 @@ print(lst)
 lst.sort(key = lambda inner:inner[0])
 print(lst)
 ```
+
+### 3.Merging two Dictionaries
+```
+# Python code to merge dict using a single
+# expression
+def Merge(dict1, dict2):
+    res = {**dict1, **dict2}
+    return res
+     
+# Driver code
+dict1 = {'a': 10, 'b': 8}
+dict2 = {'d': 6, 'c': 4}
+dict3 = Merge(dict1, dict2)
+print(dict3)
+```
+
+### 4.Underline utilization in integer
+```
+num1 = 100_000_000
+num2 = 12_003_420_005
+total = num1 + num2
+print(f'{total: ,}')
+```
+
+### 5.Library for opening each websites
+``` 
+import webbrowser
+webbrowser.open('https://www.hejazizo.com/')
+```
