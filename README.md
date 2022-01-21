@@ -1,4 +1,4 @@
-# Python-Tricks
+# Python Tricks
 
 
 <img src="https://www.inspiredpython.com/favicon.svg"
